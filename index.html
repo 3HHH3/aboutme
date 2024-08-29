@@ -1,6 +1,67 @@
 <!DOCTYPE html>
-   <html>
-      <body>
-          <h1>HASAN HÜSEYİN HARMANCI</h1>
-      </body>
-   </html> 
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HHH</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      background-color: #f0f0f0;
+    }
+
+    .container {
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    p {
+      color: #666;
+    }
+
+    .button {
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Merhaba! Benim Adım HASAN HÜSEYİN HARMANCI</h1>
+    <p>Bu, kendimi tanıtmak için oluşturduğum basit bir web sitesi. </p>
+    <p>Daha fazla bilgi edinmek için https://www.linkedin.com/in/3hhh/ bağlantısına tıklayabilirsiniz.</p>
+    <button class="button">Daha Fazla Bilgi</button>
+  </div>
+
+  <script>
+    const button = document.querySelector('.button');
+
+    button.addEventListener('click', () => {
+      // Butona tıklandığında yapılacak işlem:
+      // Örneğin, yeni bir sekmede [LinkedIn Bağlantınız veya Web Siteniz] açılabilir.
+      window.open('https://www.linkedin.com/in/3hhh/', '_blank');
+    });
+  </script>
+</body>
+</html>
